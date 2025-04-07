@@ -1,1 +1,1 @@
-# Identification-of-patterns-of-behavior-of-laboratory-rats-by-sequence-of-video-frames
+# Идентификация паттернов поведения лабораторных крыс по последовательности видеокадров

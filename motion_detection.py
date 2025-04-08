@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import joblib
 from sklearn.preprocessing import StandardScaler
-
+# Определяет класс крыса ходит/стоит
 class RatBehaviorClassifier:
     def __init__(self, initial_bboxes, frame_width, frame_height):
         self.frame_width = frame_width  # Ширина кадра видео
@@ -112,7 +112,7 @@ class RatBehaviorClassifier:
         filtered_bbox, velocity_vector = self.filter_step(bbox)  # Обновление фильтра Калмана
         classification_result = self.clsf_step(velocity_vector)  # Классификация поведения
         return filtered_bbox, classification_result, velocity_vector
-
+# Определяет класс крыса встала на задние лапы
 class RatLegsClassifier:
     def __init__(self):
         self.model = joblib.load('random_forest_model.joblib')  # Загрузка модели машинного обучения
@@ -257,7 +257,7 @@ class RatLegsClassifier:
         classification_result = self.clsf_step(data)  # Классификация поведения
 
         return classification_result
-
+# Связывает два класса классификатора, считывает входные данные и визуализирует результаты классификации
 class RatBehaviorVisualizer:
     def __init__(self):
         self.i_const = 0  # Константа для индексации

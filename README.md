@@ -19,13 +19,10 @@
 
 ## Как использовать
 
-1. Установите необходимые зависимости:
-   ```bash
-   pip install numpy opencv-python scipy matplotlib pandas scikit-learn joblib
 1. Скачайте файлы:
 - Скачайте файл с программой motion_detection.py.
 -  Скачайте модель random_forest_model.joblib.
-2. оздайте структуру папок:
+2. Создайте структуру папок:
 
 - В той же директории, где находятся скачанные файлы, создайте папку classification. В ней будут сохраняться видео с результатами классификации.
 - Создайте два пути: labels_walking/labels и videos_walking/videos.

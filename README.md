@@ -43,17 +43,5 @@
   ```bash
   visualizer.process_behavior_type('walking')
   ```
-# Результаты 
-
-## Классификация  паттернов "крыса ходит" и "крыса стоит"
-
-https://github.com/user-attachments/assets/9ceca51c-fd38-43ef-9f41-7b4a24ed6ee6
-
-## Классификация паттерна "крыса встала на задние лапы".
-
-https://github.com/user-attachments/assets/d1d9b743-982f-442f-bca9-7c8ff3d2c9f9
-
-
-https://github.com/user-attachments/assets/157da359-9d2d-4c1a-b42d-65791ac24f73
 
 
